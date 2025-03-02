@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "dev": "npx tailwindcss -i ./src/assets/styles.css -o ./public/styles.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
+  }
+}
